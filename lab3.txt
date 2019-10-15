@@ -1,0 +1,8 @@
+Клонуйте репозиторій: ​ https://github.com/SergiiPiatakov/calculator.git
+Використовуючи `rebase -i`, поміняйте місцями коміти: "fix truncation
+error" та "formatting: use tabs instead of spaces".
+Підпишіть їх і створіть два патчі, використовуючи `git format-patch`.
+Поєднайте "improve calculation accuracy" та "fix truncation error" в один
+коміт, використовуючи `rebase -i`. Підпишіть його.
+Потім видаліть верхній коміт "formatting: use tabs instead of spaces",
+використовуючи `git rebase -i`.
